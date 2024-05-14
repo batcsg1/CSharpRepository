@@ -1,4 +1,5 @@
-﻿namespace STUDIOGIT
+﻿
+namespace STUDIOGIT
 {
     internal class Program
     {
@@ -6,6 +7,12 @@
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Test Line");
+            LJO();
+        }
+
+        private static void LJO()
+        {
+            Console.WriteLine("Testing StaticVoid Stuffs");
         }
     }
 }
