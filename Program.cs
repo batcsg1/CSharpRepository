@@ -17,5 +17,10 @@ namespace STUDIOGIT
         {
             Console.WriteLine("Testing StaticVoid Stuffs");
         }
+
+        private static void EGW()
+        {
+            Console.WriteLine("Testing for conflicts");
+        }
     }
 }
