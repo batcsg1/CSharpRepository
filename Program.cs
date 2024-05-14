@@ -1,6 +1,4 @@
 ﻿
-using System;
-
 namespace STUDIOGIT
 {
     internal class Program
@@ -10,12 +8,18 @@ namespace STUDIOGIT
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Test Line");
             Console.Write("Git has Gyatttt");
-            LJO();
+            Test();
+            Console.ReadLine();
         }
 
-        private static void LJO()
+        private static void Test()
         {
-            Console.WriteLine("Testing StaticVoid Stuffs");
+            Console.WriteLine("Testing StaticVoid Stuffs");            
+        }
+
+        private static void EGW()
+        {
+            Console.WriteLine("Testing for conflicts");
         }
 
 
